@@ -1,0 +1,14 @@
+================
+Transform definition
+================
+
+transform my_dissolve:
+    alpha 0.0
+
+---
+
+(source_file
+  (transform
+    name: (identifier)
+    (block
+      (body_line))))

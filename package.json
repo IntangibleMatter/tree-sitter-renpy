@@ -1,0 +1,14 @@
+{
+  "name": "tree-sitter-renpy",
+  "version": "0.1.0",
+  "description": "Tree-sitter grammar for Ren'Py",
+  "main": "bindings/node",
+  "keywords": [
+    "tree-sitter",
+    "renpy"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "tree-sitter-cli": "^0.24.0"
+  }
+}

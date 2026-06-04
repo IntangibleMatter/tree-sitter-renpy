@@ -1,0 +1,15 @@
+================
+Screen definition
+================
+
+screen main_menu():
+    pass
+
+---
+
+(source_file
+  (screen
+    name: (identifier)
+    (parameters)
+    (block
+      (body_line))))

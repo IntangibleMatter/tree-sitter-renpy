@@ -1,0 +1,39 @@
+================
+Narration (no speaker)
+================
+
+"Hello world"
+
+---
+
+(source_file
+  (say_statement
+    what: (string
+      (double_string))))
+
+================
+Say with speaker
+================
+
+e "Hello world"
+
+---
+
+(source_file
+  (say_statement
+    who: (identifier)
+    what: (string
+      (double_string))))
+
+================
+Say with single quotes
+================
+
+'Narration in single quotes'
+
+---
+
+(source_file
+  (say_statement
+    what: (string
+      (single_string))))

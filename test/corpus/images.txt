@@ -1,0 +1,31 @@
+================
+Image assignment
+================
+
+image bg park = "park.jpg"
+
+---
+
+(source_file
+  (image
+    name: (image_name
+      (identifier)
+      (identifier))
+    value: (expression)))
+
+================
+Image block
+================
+
+image eileen happy:
+    "eileen_happy.png"
+
+---
+
+(source_file
+  (image
+    name: (image_name
+      (identifier)
+      (identifier))
+    (block
+      (body_line))))

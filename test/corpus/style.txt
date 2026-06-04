@@ -1,0 +1,15 @@
+================
+Style definition
+================
+
+style my_text is text:
+    color "#fff"
+
+---
+
+(source_file
+  (style
+    name: (identifier)
+    (identifier)
+    (block
+      (body_line))))

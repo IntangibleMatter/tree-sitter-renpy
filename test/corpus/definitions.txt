@@ -1,0 +1,40 @@
+================
+Define
+================
+
+define e = Character('Eileen', color=(200, 255, 200, 255))
+
+---
+
+(source_file
+  (define
+    name: (identifier)
+    value: (expression)))
+
+================
+Default
+================
+
+default points = 0
+
+---
+
+(source_file
+  (default
+    name: (identifier)
+    value: (expression)))
+
+================
+Define with dotted name
+================
+
+define config.name = "My Game"
+
+---
+
+(source_file
+  (define
+    name: (dotted_name
+      (identifier)
+      (identifier))
+    value: (expression)))

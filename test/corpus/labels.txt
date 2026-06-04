@@ -1,0 +1,39 @@
+================
+Simple label
+================
+
+label start:
+    pass
+
+---
+
+(source_file
+  (label
+    name: (label_name
+      (identifier))
+    (block
+      (body_line))))
+
+================
+Label with menu
+================
+
+label choices:
+    menu:
+        "Option A":
+            jump start
+        "Option B":
+            jump end
+
+---
+
+(source_file
+  (label
+    name: (label_name
+      (identifier))
+    (block
+      (body_line)
+      (body_line)
+      (body_line)
+      (body_line)
+      (body_line))))

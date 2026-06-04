@@ -1,0 +1,36 @@
+================
+Play music
+================
+
+play music "theme.ogg"
+
+---
+
+(source_file
+  (play
+    (identifier)
+    (expression)))
+
+================
+Stop music
+================
+
+stop music
+
+---
+
+(source_file
+  (stop
+    (identifier)))
+
+================
+With statement
+================
+
+with dissolve
+
+---
+
+(source_file
+  (with_statement
+    (expression)))

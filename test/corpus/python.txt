@@ -1,0 +1,41 @@
+================
+Init python block
+================
+
+init python:
+    x = 1
+
+---
+
+(source_file
+  (init
+    (block
+      (body_line))))
+
+================
+Python block
+================
+
+python:
+    def hello():
+        return "world"
+
+---
+
+(source_file
+  (python_block
+    (block
+      (body_line)
+      (body_line))))
+
+================
+One-line python
+================
+
+$ x = 1
+
+---
+
+(source_file
+  (one_line_python
+    (expression)))
