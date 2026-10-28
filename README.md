@@ -3,6 +3,14 @@
 A [tree-sitter](https://tree-sitter.github.io/tree-sitter/) grammar for the
 [Ren'Py](https://www.renpy.org/) visual-novel scripting language.
 
+This is a fork of (rdelacruz's version)[https://github.com/rdelacrz/tree-sitter-renpy/tree/main]
+with some modifications to make it work better for nvim. Namely, including their
+queries from (another repo)[https://github.com/rdelacrz/zed-language-renpy/tree/main/languages/renpy]
+and modifying them to work in neovim. Somewhat. I haven't actually done much
+yet.
+
+## THE REST OF THIS DOCUMENT IS UNMODIFIED FROM THE ORIGINAL REPO
+
 This grammar is the **syntax half** of the Zed Ren'Py extension. Zed requires every language to
 reference a tree-sitter grammar; it uses the parse tree (together with the `.scm` query files shipped
 in the extension's `languages/renpy/` directory) for **syntax highlighting, bracket matching,
