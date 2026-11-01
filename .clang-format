@@ -1,0 +1,25 @@
+UseTab: Always
+IndentWidth: 4
+TabWidth: 4
+ColumnLimit: 100
+
+AlignEscapedNewlines: Left
+AlignAfterOpenBracket: Align
+AlignOperands: AlignAfterOperator
+
+AllowShortBlocksOnASingleLine: Empty
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AllowShortLoopsOnASingleLine: false
+#AllowShortNamespacesOnASingleLine: false
+
+
+BreakBeforeBraces: Attach
+BreakConstructorInitializers: AfterColon
+EmptyLineBeforeAccessModifier: LogicalBlock
+NamespaceIndentation: Inner
+QualifierAlignment: Left
+SeparateDefinitionBlocks: Always
+#SortUsingDeclarations: LexicographicNumeric
+Standard: Latest
+#LineEnding: LF
